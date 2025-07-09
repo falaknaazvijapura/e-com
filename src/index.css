@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+
+/* Root CSS Color Variables */
+@theme {
+  --color-black: #000000;
+  /* Base black – primary text */
+  --color-gray: #666666;
+  /* Medium gray – secondary text */
+  --color-silver: #D2D2D2;
+  /* Light gray – borders/backgrounds */
+  --color-white: #FFFFFF;
+  /* Pure white – background or text */
+  --color-peach: #DA7B67;
+  /* Soft peach – buttons or accents */
+  --color-blush: #E78A8A;
+  /* Blush pink – alerts, highlights */
+  --color-pink-tint: #F3E9E9;
+  /* Light pink tint – background fill */
+  --color-red: #FF1A1A;
+  /* Red – error/danger */
+  --color-green: #16985E;
+  /* Green – success/status */
+  --color-orange: #FFA048;
+  /* Bright orange – warning or accents */
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost-Italic';
+  src: url('/fonts/Jost-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Marcellus';
+  src: url('/fonts/Marcellus-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+
+  font-family: "Jost", sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-family: "Marcellus", sans-serif ;
+
+}
