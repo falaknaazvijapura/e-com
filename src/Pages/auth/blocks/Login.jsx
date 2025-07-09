@@ -15,7 +15,7 @@ const Login = () => {
 
             <form>
 
-                <div className="form-card w-[330px] bg-white rounded-[40px] mx-auto mt-[-52px] px-[40px] pt-[40px] pb-[50px]  shadow-[0px_20px_40px_0px_rgba(230,139,138,0.06)] backdrop-blur-[25px]">
+                <div className="form-card max-w-[330px] bg-white rounded-[40px] mx-auto mt-[-52px] px-[40px] pt-[40px] pb-[50px]  shadow-[0px_20px_40px_0px_rgba(230,139,138,0.06)] backdrop-blur-[25px]">
 
                     <h3 className='text-[20px] mb-[20px]'>Access Your Account and Explore More</h3>
 
