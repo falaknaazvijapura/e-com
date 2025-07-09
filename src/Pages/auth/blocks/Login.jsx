@@ -48,7 +48,7 @@ const Login = () => {
 
                 <Button children="Sign in" btnType='button'></Button>
 
-                <span className='text-black text-[16px] pt-[30px]'>Not a member? <b className='underline cursor-pointer'>Create an account</b></span>
+                <span className='text-black text-[16px] pt-[30px]'>Not a member? <link className='underline cursor-pointer'>Create an account</link></span>
 
             </div>
 
