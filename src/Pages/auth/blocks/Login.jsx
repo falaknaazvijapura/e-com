@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../../../components/utilities';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -48,7 +49,7 @@ const Login = () => {
 
                 <Button children="Sign in" btnType='button'></Button>
 
-                <span className='text-black text-[16px] pt-[30px]'>Not a member? <link className='underline cursor-pointer'>Create an account</link></span>
+                <span className='text-black text-[16px] pt-[30px]'>Not a member? <Link className='underline cursor-pointer'>Create an account</Link></span>
 
             </div>
 
