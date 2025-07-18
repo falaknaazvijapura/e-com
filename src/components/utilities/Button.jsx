@@ -2,7 +2,7 @@ import { IoArrowForward } from "react-icons/io5";
 
 
 const Button = ({ children, btnType = "submit", variant = "primary", isIcon = true }) => {
-    const buttonStyles = "px-[2px] py-2 text-[17px] h-[55px] rounded-full flex items-center justify-center cursor-pointer ";
+    const buttonStyles = "px-[2px] py-2 text-[17px] h-[55px] !rounded-full flex items-center justify-center cursor-pointer ";
 
     const colorVariants = {
         primary: "bg-peach text-white",
