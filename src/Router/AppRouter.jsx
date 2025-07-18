@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "./AppLayout";
 import { ForgetPass, Login, Register, ResetPass } from "../Pages/auth";
-import ProductCart from "../Pages/products/list/common/ProductCart";
+
 
 
 const router = createBrowserRouter([
@@ -31,12 +31,7 @@ const router = createBrowserRouter([
         ],
     },
 
-    {
 
-        path: "product/list",
-        element: <ProductCart></ProductCart>
-
-    }
 
 
 ]);
